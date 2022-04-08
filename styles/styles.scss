@@ -61,26 +61,35 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: yellow;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: yellowgreen;
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: blue;
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slategray;
+}
+
+.active{
+    display: block;
 }
 
 //controls
@@ -120,3 +129,4 @@ section{
         }
     }
 }
+
